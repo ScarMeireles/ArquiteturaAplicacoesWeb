@@ -27,6 +27,7 @@ public class Produto {
         this.name = name;
         this.description = description;
     }
+    
 
     // Métodos getters e setters para acessar e modificar os campos.
     public Long getId() {

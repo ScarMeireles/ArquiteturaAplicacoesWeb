@@ -47,4 +47,34 @@ public class ProdutoService {
             return produtoRepository.save(existingModel); // Salva as alterações no banco de dados.
         });
     }
+
+    public static Object obterTodos() {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'obterTodos'");
+    }
+
+    public static Object obterPorId(String string) {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'obterPorId'");
+    }
+
+    public Object atualizar(String string, Produto updatedProduto) {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'atualizar'");
+    }
+
+    public Object inserir(Produto newProduto) {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'inserir'");
+    }
+
+    public void excluir(String string) {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'excluir'");
+    }
+
+    public Object somar(int i, int j) {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'somar'");
+    }
 }

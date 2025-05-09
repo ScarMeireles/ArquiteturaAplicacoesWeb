@@ -60,4 +60,29 @@ public class ProdutoController {
             return ResponseEntity.notFound().build(); // Retorna 404 Not Found.
         }
     }
+
+    public static List<Produto> obterTodos() {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'obterTodos'");
+    }
+
+    public static Produto obterPorId(String string) {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'obterPorId'");
+    }
+
+    public Produto atualizar(String string, Produto updatedProduto) {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'atualizar'");
+    }
+
+    public Produto inserir(Produto newProduto) {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'inserir'");
+    }
+
+    public void excluir(String string) {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'excluir'");
+    }
 }
